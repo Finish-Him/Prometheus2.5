@@ -1,0 +1,26 @@
+{
+  "nome": "analisador_prometheus23.py",
+  "categoria": "src",
+  "subcategoria": "analysis",
+  "origem": "prometheus_2.3",
+  "data_copia": "2025-07-08T21:16:56.161555",
+  "importancia": 4,
+  "confianca": 0.9,
+  "metadados_codigo": {
+    "valido": true,
+    "total_linhas": 238,
+    "linhas_codigo": 179,
+    "imports": [
+      "import os",
+      "import json",
+      "import hashlib",
+      "from pathlib import Path",
+      "from datetime import datetime",
+      "import sys"
+    ],
+    "funcoes": 6,
+    "classes": 0,
+    "tamanho_kb": 8.29
+  },
+  "hash": "362e4a85"
+}

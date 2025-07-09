@@ -1,0 +1,27 @@
+{
+  "nome": "analisador_repositorios.py",
+  "categoria": "src",
+  "subcategoria": "analysis",
+  "origem": "prometheus_2.3",
+  "data_copia": "2025-07-08T21:16:56.161865",
+  "importancia": 4,
+  "confianca": 0.9,
+  "metadados_codigo": {
+    "valido": true,
+    "total_linhas": 241,
+    "linhas_codigo": 204,
+    "imports": [
+      "import os",
+      "import json",
+      "import hashlib",
+      "from pathlib import Path",
+      "from datetime import datetime",
+      "from typing import Dict, List, Any",
+      "import subprocess"
+    ],
+    "funcoes": 12,
+    "classes": 1,
+    "tamanho_kb": 9.66
+  },
+  "hash": "9be303ca"
+}

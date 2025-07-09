@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Prometheus Core Schema V1",
+  "description": "Schema padronizado para todos os dados do projeto Prometheus",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "core_v1",
+      "description": "Versão do schema utilizado"
+    },
+    "data_type": {
+      "enum": ["match", "hero", "item", "team", "league", "constant", "analysis", "model", "player"],
+      "description": "Tipo de dados contido no arquivo"
+    },
+    "source": {
+      "enum": ["opendota_api", "sistema_anterior", "dotaconstants", "manual", "gametracking", "protobufs"],
+      "description": "Origem dos dados"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp de criação/migração do arquivo"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Nível de confiança dos dados (0.0 a 1.0)"
+    },
+    "importance": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Nível de importância dos dados (1 a 5)"
+    },
+    "validation_status": {
+      "enum": ["passed", "failed", "pending", "warning"],
+      "description": "Status da validação dos dados"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "origin_file": {
+          "type": "string",
+          "description": "Nome do arquivo original"
+        },
+        "collection": {
+          "type": "string",
+          "description": "Coleção à qual os dados pertencem"
+        },
+        "hash": {
+          "type": "string",
+          "description": "Hash MD5 dos dados originais"
+        },
+        "size_bytes": {
+          "type": "integer",
+          "description": "Tamanho dos dados em bytes"
+        },
+        "records_count": {
+          "type": "integer",
+          "description": "Número de registros (se aplicável)"
+        }
+      },
+      "required": ["origin_file", "collection", "hash"]
+    },
+    "data": {
+      "type": "object",
+      "description": "Dados principais do arquivo"
+    }
+  },
+  "required": ["schema_version", "data_type", "source", "timestamp", "confidence", "importance", "validation_status", "metadata", "data"]
+}
+

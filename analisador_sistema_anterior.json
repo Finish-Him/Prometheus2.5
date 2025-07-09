@@ -1,0 +1,27 @@
+{
+  "nome": "analisador_sistema_anterior.py",
+  "categoria": "src",
+  "subcategoria": "analysis",
+  "origem": "prometheus_2.3",
+  "data_copia": "2025-07-08T21:16:56.162095",
+  "importancia": 4,
+  "confianca": 0.9,
+  "metadados_codigo": {
+    "valido": true,
+    "total_linhas": 338,
+    "linhas_codigo": 287,
+    "imports": [
+      "import os",
+      "import json",
+      "import pickle",
+      "from pathlib import Path",
+      "from datetime import datetime",
+      "from typing import Dict, List, Any",
+      "import subprocess"
+    ],
+    "funcoes": 10,
+    "classes": 1,
+    "tamanho_kb": 14.52
+  },
+  "hash": "9e4d4272"
+}

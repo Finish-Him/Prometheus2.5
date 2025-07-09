@@ -1,0 +1,11 @@
+
+{
+  "definition": "Resultados numéricos e logs de validação e teste.",
+  "fields": {
+    "run_id": "string",
+    "metrics": "object",
+    "timestamp": "datetime",
+    "notes": "string"
+  }
+}
+

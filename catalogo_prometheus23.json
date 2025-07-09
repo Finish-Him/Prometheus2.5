@@ -1,0 +1,757 @@
+{
+  "versao": "prometheus_2.3",
+  "data_analise": "2025-07-08T21:15:40.500584",
+  "resumo": {
+    "total_arquivos": 31,
+    "total_json": 26,
+    "total_python": 5,
+    "tamanho_total_mb": 2.09
+  },
+  "arquivos_json": [
+    {
+      "nome": "constants_heroes.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/banco de dados/constants_heroes.json",
+      "hash": "27bbaf2a",
+      "importancia": 5,
+      "confianca": 0.85,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "object",
+        "total_registros": 1,
+        "campos_principais": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "tamanho_kb": 89.7
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "constants_items.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/banco de dados/constants_items.json",
+      "hash": "2d970d7b",
+      "importancia": 5,
+      "confianca": 0.85,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "object",
+        "total_registros": 1,
+        "campos_principais": [
+          "blink",
+          "overwhelming_blink",
+          "swift_blink",
+          "arcane_blink",
+          "recipe_arcane_blink",
+          "recipe_swift_blink",
+          "recipe_overwhelming_blink",
+          "blades_of_attack",
+          "broadsword",
+          "chainmail"
+        ],
+        "tamanho_kb": 331.9
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "distributions.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/banco de dados/distributions.json",
+      "hash": "3007d410",
+      "importancia": 3,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "object",
+        "total_registros": 1,
+        "campos_principais": [
+          "ranks"
+        ],
+        "tamanho_kb": 2.31
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "hero_stats.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/banco de dados/hero_stats.json",
+      "hash": "e15824bd",
+      "importancia": 3,
+      "confianca": 0.9,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 126,
+        "campos_principais": [
+          "id",
+          "name",
+          "primary_attr",
+          "attack_type",
+          "roles",
+          "img",
+          "icon",
+          "base_health",
+          "base_health_regen",
+          "base_mana"
+        ],
+        "tamanho_kb": 158.64
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "metadata.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/banco de dados/metadata.json",
+      "hash": "0e72c1df",
+      "importancia": 3,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "object",
+        "total_registros": 1,
+        "campos_principais": [
+          "scenarios",
+          "isSubscriber"
+        ],
+        "tamanho_kb": 0.23
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "pro_matches.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/banco de dados/pro_matches.json",
+      "hash": "59611f9e",
+      "importancia": 4,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 100,
+        "campos_principais": [
+          "match_id",
+          "duration",
+          "start_time",
+          "radiant_team_id",
+          "radiant_name",
+          "dire_team_id",
+          "dire_name",
+          "leagueid",
+          "league_name",
+          "series_id"
+        ],
+        "tamanho_kb": 31.54
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "pro_players.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/banco de dados/pro_players.json",
+      "hash": "99d4082b",
+      "importancia": 4,
+      "confianca": 0.9,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 476,
+        "campos_principais": [
+          "account_id",
+          "steamid",
+          "avatar",
+          "avatarmedium",
+          "avatarfull",
+          "profileurl",
+          "personaname",
+          "last_login",
+          "full_history_time",
+          "cheese"
+        ],
+        "tamanho_kb": 364.93
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "public_matches.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/banco de dados/public_matches.json",
+      "hash": "8a3bdc3b",
+      "importancia": 3,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 100,
+        "campos_principais": [
+          "match_id",
+          "match_seq_num",
+          "radiant_win",
+          "start_time",
+          "duration",
+          "lobby_type",
+          "game_mode",
+          "avg_rank_tier",
+          "num_rank_tier",
+          "cluster"
+        ],
+        "tamanho_kb": 24.73
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "teams.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/banco de dados/teams.json",
+      "hash": "63ca3fc7",
+      "importancia": 4,
+      "confianca": 0.9,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 1000,
+        "campos_principais": [
+          "team_id",
+          "rating",
+          "wins",
+          "losses",
+          "last_match_time",
+          "name",
+          "tag",
+          "logo_url"
+        ],
+        "tamanho_kb": 219.22
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "pro_matches_batch_1.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/Pro_match/pro_matches_batch_1.json",
+      "hash": "655ceaf5",
+      "importancia": 4,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 100,
+        "campos_principais": [
+          "match_id",
+          "duration",
+          "start_time",
+          "radiant_team_id",
+          "radiant_name",
+          "dire_team_id",
+          "dire_name",
+          "leagueid",
+          "league_name",
+          "series_id"
+        ],
+        "tamanho_kb": 40.92
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "pro_matches_batch_10.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/Pro_match/pro_matches_batch_10.json",
+      "hash": "ab1ed285",
+      "importancia": 4,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 100,
+        "campos_principais": [
+          "match_id",
+          "duration",
+          "start_time",
+          "radiant_team_id",
+          "radiant_name",
+          "dire_team_id",
+          "dire_name",
+          "leagueid",
+          "league_name",
+          "series_id"
+        ],
+        "tamanho_kb": 41.48
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "pro_matches_batch_2.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/Pro_match/pro_matches_batch_2.json",
+      "hash": "c92b6329",
+      "importancia": 4,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 100,
+        "campos_principais": [
+          "match_id",
+          "duration",
+          "start_time",
+          "radiant_team_id",
+          "radiant_name",
+          "dire_team_id",
+          "dire_name",
+          "leagueid",
+          "league_name",
+          "series_id"
+        ],
+        "tamanho_kb": 41.25
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "pro_matches_batch_3.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/Pro_match/pro_matches_batch_3.json",
+      "hash": "be5db604",
+      "importancia": 4,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 100,
+        "campos_principais": [
+          "match_id",
+          "duration",
+          "start_time",
+          "radiant_team_id",
+          "radiant_name",
+          "dire_team_id",
+          "dire_name",
+          "leagueid",
+          "league_name",
+          "series_id"
+        ],
+        "tamanho_kb": 41.47
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "pro_matches_batch_4.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/Pro_match/pro_matches_batch_4.json",
+      "hash": "433e5154",
+      "importancia": 4,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 100,
+        "campos_principais": [
+          "match_id",
+          "duration",
+          "start_time",
+          "radiant_team_id",
+          "radiant_name",
+          "dire_team_id",
+          "dire_name",
+          "leagueid",
+          "league_name",
+          "series_id"
+        ],
+        "tamanho_kb": 41.34
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "pro_matches_batch_5.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/Pro_match/pro_matches_batch_5.json",
+      "hash": "f29679f0",
+      "importancia": 4,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 100,
+        "campos_principais": [
+          "match_id",
+          "duration",
+          "start_time",
+          "radiant_team_id",
+          "radiant_name",
+          "dire_team_id",
+          "dire_name",
+          "leagueid",
+          "league_name",
+          "series_id"
+        ],
+        "tamanho_kb": 41.33
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "pro_matches_batch_6.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/Pro_match/pro_matches_batch_6.json",
+      "hash": "4b31c205",
+      "importancia": 4,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 100,
+        "campos_principais": [
+          "match_id",
+          "duration",
+          "start_time",
+          "radiant_team_id",
+          "radiant_name",
+          "dire_team_id",
+          "dire_name",
+          "leagueid",
+          "league_name",
+          "series_id"
+        ],
+        "tamanho_kb": 41.47
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "pro_matches_batch_7.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/Pro_match/pro_matches_batch_7.json",
+      "hash": "d8666a97",
+      "importancia": 4,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 100,
+        "campos_principais": [
+          "match_id",
+          "duration",
+          "start_time",
+          "radiant_team_id",
+          "radiant_name",
+          "dire_team_id",
+          "dire_name",
+          "leagueid",
+          "league_name",
+          "series_id"
+        ],
+        "tamanho_kb": 41.37
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "pro_matches_batch_8.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/Pro_match/pro_matches_batch_8.json",
+      "hash": "ee8524e3",
+      "importancia": 4,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 100,
+        "campos_principais": [
+          "match_id",
+          "duration",
+          "start_time",
+          "radiant_team_id",
+          "radiant_name",
+          "dire_team_id",
+          "dire_name",
+          "leagueid",
+          "league_name",
+          "series_id"
+        ],
+        "tamanho_kb": 41.6
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "pro_matches_batch_9.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.1/Dota open/Pro_match/pro_matches_batch_9.json",
+      "hash": "ba935ef3",
+      "importancia": 4,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 100,
+        "campos_principais": [
+          "match_id",
+          "duration",
+          "start_time",
+          "radiant_team_id",
+          "radiant_name",
+          "dire_team_id",
+          "dire_name",
+          "leagueid",
+          "league_name",
+          "series_id"
+        ],
+        "tamanho_kb": 41.43
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "analise_sistema_anterior.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.3/analise_sistema_anterior.json",
+      "hash": "2800b248",
+      "importancia": 1,
+      "confianca": 0.7,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "object",
+        "total_registros": 1,
+        "campos_principais": [
+          "json",
+          "python",
+          "txt",
+          "models"
+        ],
+        "tamanho_kb": 14.33
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "core_v1(1).json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.3/core_v1(1).json",
+      "hash": "ac2759b3",
+      "importancia": 5,
+      "confianca": 0.85,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "object",
+        "total_registros": 1,
+        "campos_principais": [
+          "$schema",
+          "title",
+          "description",
+          "type",
+          "properties",
+          "required"
+        ],
+        "tamanho_kb": 2.21
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "core_v1.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.3/core_v1.json",
+      "hash": "ac2759b3",
+      "importancia": 5,
+      "confianca": 0.85,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "object",
+        "total_registros": 1,
+        "campos_principais": [
+          "$schema",
+          "title",
+          "description",
+          "type",
+          "properties",
+          "required"
+        ],
+        "tamanho_kb": 2.21
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "dicionario_global_repositorios.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.3/dicionario_global_repositorios.json",
+      "hash": "fe547682",
+      "importancia": 1,
+      "confianca": 0.85,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "object",
+        "total_registros": 1,
+        "campos_principais": [
+          "projeto",
+          "versao",
+          "data_analise",
+          "total_repositorios",
+          "schema_version",
+          "repositorios",
+          "resumo"
+        ],
+        "tamanho_kb": 6.61
+      },
+      "schema": "core_v1"
+    },
+    {
+      "nome": "heroes.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.3/heroes.json",
+      "hash": "1fb71ab5",
+      "importancia": 5,
+      "confianca": 0.1,
+      "metadados": {
+        "valido": false,
+        "erro": "Expecting ',' delimiter: line 50 column 14 (char 1132)",
+        "tamanho_kb": 1.11
+      },
+      "schema": "invalido"
+    },
+    {
+      "nome": "items.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.3/items.json",
+      "hash": "5ae508a4",
+      "importancia": 5,
+      "confianca": 0.1,
+      "metadados": {
+        "valido": false,
+        "erro": "Expecting ',' delimiter: line 30 column 8 (char 828)",
+        "tamanho_kb": 0.81
+      },
+      "schema": "invalido"
+    },
+    {
+      "nome": "pro_matches_last_1000.json",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.3/pro_matches_last_1000.json",
+      "hash": "4c81c297",
+      "importancia": 4,
+      "confianca": 0.9,
+      "metadados": {
+        "valido": true,
+        "tipo_dados": "array",
+        "total_registros": 1000,
+        "campos_principais": [
+          "match_id",
+          "duration",
+          "start_time",
+          "radiant_team_id",
+          "radiant_name",
+          "dire_team_id",
+          "dire_name",
+          "leagueid",
+          "league_name",
+          "series_id"
+        ],
+        "tamanho_kb": 413.63
+      },
+      "schema": "core_v1"
+    }
+  ],
+  "arquivos_python": [
+    {
+      "nome": "analisador_prometheus23.py",
+      "caminho_relativo": "analisador_prometheus23.py",
+      "hash": "362e4a85",
+      "importancia": 4,
+      "confianca": 0.9,
+      "metadados": {
+        "valido": true,
+        "total_linhas": 238,
+        "linhas_codigo": 179,
+        "imports": [
+          "import os",
+          "import json",
+          "import hashlib",
+          "from pathlib import Path",
+          "from datetime import datetime",
+          "import sys"
+        ],
+        "funcoes": 6,
+        "classes": 0,
+        "tamanho_kb": 8.29
+      }
+    },
+    {
+      "nome": "analisador_repositorios.py",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.3/analisador_repositorios.py",
+      "hash": "9be303ca",
+      "importancia": 4,
+      "confianca": 0.9,
+      "metadados": {
+        "valido": true,
+        "total_linhas": 241,
+        "linhas_codigo": 204,
+        "imports": [
+          "import os",
+          "import json",
+          "import hashlib",
+          "from pathlib import Path",
+          "from datetime import datetime",
+          "from typing import Dict, List, Any",
+          "import subprocess"
+        ],
+        "funcoes": 12,
+        "classes": 1,
+        "tamanho_kb": 9.66
+      }
+    },
+    {
+      "nome": "analisador_sistema_anterior.py",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.3/analisador_sistema_anterior.py",
+      "hash": "9e4d4272",
+      "importancia": 4,
+      "confianca": 0.9,
+      "metadados": {
+        "valido": true,
+        "total_linhas": 338,
+        "linhas_codigo": 287,
+        "imports": [
+          "import os",
+          "import json",
+          "import pickle",
+          "from pathlib import Path",
+          "from datetime import datetime",
+          "from typing import Dict, List, Any",
+          "import subprocess"
+        ],
+        "funcoes": 10,
+        "classes": 1,
+        "tamanho_kb": 14.52
+      }
+    },
+    {
+      "nome": "migrador_prometheus.py",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.3/migrador_prometheus.py",
+      "hash": "3eb9d8bf",
+      "importancia": 4,
+      "confianca": 0.9,
+      "metadados": {
+        "valido": true,
+        "total_linhas": 481,
+        "linhas_codigo": 368,
+        "imports": [
+          "import json",
+          "import hashlib",
+          "import pickle",
+          "from pathlib import Path",
+          "from datetime import datetime",
+          "from typing import Dict, List, Any, Optional",
+          "import jsonschema",
+          "import logging"
+        ],
+        "funcoes": 16,
+        "classes": 1,
+        "tamanho_kb": 18.82
+      }
+    },
+    {
+      "nome": "validador_final.py",
+      "caminho_relativo": "Prometheus 2.3/Prometheus 2.3.3/validador_final.py",
+      "hash": "478d1b15",
+      "importancia": 4,
+      "confianca": 0.8,
+      "metadados": {
+        "valido": true,
+        "total_linhas": 222,
+        "linhas_codigo": 163,
+        "imports": [
+          "import json",
+          "import os",
+          "import hashlib",
+          "from pathlib import Path",
+          "from collections import defaultdict, Counter",
+          "import jsonschema",
+          "from datetime import datetime"
+        ],
+        "funcoes": 4,
+        "classes": 0,
+        "tamanho_kb": 7.41
+      }
+    }
+  ],
+  "estrutura_diretorios": [
+    "Prometheus 2.3",
+    "Prometheus 2.3/Prometheus 2.3.1",
+    "Prometheus 2.3/Prometheus 2.3.1/Dota open",
+    "Prometheus 2.3/Prometheus 2.3.1/Dota open/banco de dados",
+    "Prometheus 2.3/Prometheus 2.3.1/Dota open/Pro_match",
+    "Prometheus 2.3/Prometheus 2.3.1/zip",
+    "Prometheus 2.3/Prometheus 2.3.3"
+  ]
+}

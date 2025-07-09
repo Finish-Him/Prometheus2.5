@@ -1,0 +1,14 @@
+{
+  "nome": "app.py",
+  "categoria": "src",
+  "subcategoria": "utils",
+  "origem": "prometheus_2.3",
+  "data_copia": "2025-07-08T21:17:07.880102",
+  "importancia": 2,
+  "confianca": 0.6,
+  "metadados_codigo": {
+    "valido": true,
+    "tamanho_kb": 5.96484375
+  },
+  "hash": "dd887587b0c4"
+}
