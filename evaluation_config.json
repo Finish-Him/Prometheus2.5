@@ -1,0 +1,11 @@
+
+{
+  "definition": "Métricas e critérios de aceitação.",
+  "fields": {
+    "metrics": "array of strings",
+    "thresholds": {
+      "metric": "value"
+    }
+  }
+}
+

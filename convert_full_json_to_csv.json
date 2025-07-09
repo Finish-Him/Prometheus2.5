@@ -1,0 +1,14 @@
+{
+  "nome": "convert_full_json_to_csv.py",
+  "categoria": "src",
+  "subcategoria": "utils",
+  "origem": "prometheus_2.3",
+  "data_copia": "2025-07-08T21:17:07.850674",
+  "importancia": 2,
+  "confianca": 0.6,
+  "metadados_codigo": {
+    "valido": true,
+    "tamanho_kb": 1.9013671875
+  },
+  "hash": "fece0423bf51"
+}

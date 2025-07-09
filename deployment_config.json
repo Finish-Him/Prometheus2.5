@@ -1,0 +1,13 @@
+
+{
+  "definition": "Parâmetros de produção: endpoint, hardware, serialização.",
+  "fields": {
+    "model_path": "string",
+    "serving_framework": "string",
+    "resources": {
+      "CPU": "string",
+      "GPU": "string"
+    }
+  }
+}
+
